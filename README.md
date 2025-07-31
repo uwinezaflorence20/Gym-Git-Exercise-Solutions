@@ -74,3 +74,26 @@ Exercise 1 bundle 1
     4  git commit -m "Add services.html page with services content"
     5  git push -u origin ft/bundle-2
     6  history
+
+  Exercise 2 
+  history
+    1  git checkout -b ft/service-redesign
+    2  git add service.html
+    3  git add services.html
+    4  git commit -m "Redesign service.html page"
+    5  git push -u origin ft/service-rredesign
+    6  git push -u origin ft/service-redesign
+    7  git checkout main
+    8  git add services.httml
+    9  git add services.html
+   10  git commit -m "Different change to service.html on main"
+   11  git push origin main
+   12  git checkout ft/service-redesign
+   13  git diff main
+   14  git merge main
+   15  git add services.html
+   16  git commit -m "Resolved merge conflict in service.html"
+   17  git push origin ft/service-redesign
+   18  git checkout main
+   19  git history
+   20  history
