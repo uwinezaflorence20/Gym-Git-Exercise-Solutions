@@ -137,3 +137,20 @@ Bundle 2
 14  git commit -m "Redesigned home page"
 15  git push origin ft/home-page-redesign
 16  history
+
+
+ Bundle 4
+
+ <!-- Exercise 1 -->
+
+  history
+    1  history 
+    2  git checkout main
+    3  git remote add git-copy https://github.com/uwinezaflorence20/new-Gym-Git-Exercise-Solutions.git
+    4  git remote -v
+    5  git add .
+    6  git commit -m "Update homepage heading"
+    7  git push origin main
+    8  git push git-copy main
+    9  history
+   10  history
