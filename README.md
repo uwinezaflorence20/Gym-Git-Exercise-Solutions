@@ -63,3 +63,14 @@ Exercise 1 bundle 1
   260  git reset --hard
   261  git clean -f
   262  history
+
+  Bundle 2 
+
+  Exercise 1:
+  history
+    1  git checkout -b ft/bundle-2
+    2  touch services.html
+    3  git add services.html
+    4  git commit -m "Add services.html page with services content"
+    5  git push -u origin ft/bundle-2
+    6  history
