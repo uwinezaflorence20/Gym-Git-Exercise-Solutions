@@ -154,3 +154,22 @@ Bundle 2
     8  git push git-copy main
     9  history
    10  history
+
+  <!-- Exercise 2 -->
+   history
+    1  history
+    2  git branch
+    3  git checkout -b ft/footer
+    4  git add .
+    5  git commit -m "First footer change"
+    6  git add .
+    7  git commit -m "Second footer change"
+    8  git push origin ft/footer
+    9  git checkout main
+   10  git checkout -b ft/squashing
+   11  git merge --squash ft/footer
+   12  git commit -m "footer changes squashing"
+   13  git push origin ft/squashing
+   14  git history
+   15  history
+
