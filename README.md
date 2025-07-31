@@ -97,3 +97,48 @@ Exercise 1 bundle 1
    18  git checkout main
    19  git history
    20  history
+
+
+Bundle 3
+  Exercise 1
+  2  git checkout -b ft/team-page
+    3  touch team.html
+    4  git add team.html
+    5  git commit -m "added the the team.html to this branch"
+    6  git push -u origin ft/team-page
+    7  git checkout main
+    8  git checkout -b ft/contact-page
+    9  git checkout ft/team-page
+   10  git chaeckout main
+   11  git pull origin main
+   12  git checkout ft/team-page
+   13  git log --oneline
+   14  git checkout ft/contact-page
+   15  git cherry-pick abc1234
+   16  git cherry-pick fbbb29a
+   17  history
+   git commit -m "Revert changes from team page"
+   git push -u origin ft/team-page
+   git checkout -b ft/faq-page
+  225  touch faq.html
+  226  git add faq.html
+  227  git commit -m "Add faq.html page"
+  228  git push -u ft/faq-page
+  229  [200~git push -u origin ft/faq-page~
+  230  git push -u origin ft/faq-page
+  231  git checkout ft/team-page
+  232  git push -u origin ft/faq-page
+  233  git checkout ft/team-page
+  234  [200~git add faq.html
+  235  git commit -m "Add initial content for faq.html"
+  236  git push
+  237  ~
+  238  git checkout ft/team-page
+  239  git add faq.html
+  240  git commit -m "Work in progress on faq.html"
+  241  git push origin ft/faq-page
+  242  git checkout ft/team-page
+  243  git revert fbbb29a
+  244  git revert fbbb29a
+  245  histoy
+  246  history
